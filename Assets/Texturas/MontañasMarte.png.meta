@@ -1,0 +1,785 @@
+fileFormatVersion: 2
+guid: 8b263657df81d7441ab3383f344b058e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 514523732608832083
+    second: "Monta\xF1asMarte_0"
+  - first:
+      213: -3215251486513537550
+    second: "Monta\xF1asMarte_1"
+  - first:
+      213: 8328216842671499491
+    second: "Monta\xF1asMarte_2"
+  - first:
+      213: -6413726377471066125
+    second: "Monta\xF1asMarte_3"
+  - first:
+      213: -6315691048159942542
+    second: "Monta\xF1asMarte_4"
+  - first:
+      213: -3047813639983104228
+    second: "Monta\xF1asMarte_5"
+  - first:
+      213: -55075946022072753
+    second: "Monta\xF1asMarte_6"
+  - first:
+      213: 5310372787848748924
+    second: "Monta\xF1asMarte_7"
+  - first:
+      213: 6538599191420402567
+    second: "Monta\xF1asMarte_8"
+  - first:
+      213: 166815138481054657
+    second: "Monta\xF1asMarte_9"
+  - first:
+      213: -4034718054450924972
+    second: "Monta\xF1asMarte_10"
+  - first:
+      213: 5825312287867367666
+    second: "Monta\xF1asMarte_11"
+  - first:
+      213: 5507729237793950566
+    second: "Monta\xF1asMarte_12"
+  - first:
+      213: -3759404230791730393
+    second: "Monta\xF1asMarte_13"
+  - first:
+      213: -6111562407398951400
+    second: "Monta\xF1asMarte_14"
+  - first:
+      213: 3333367789591560836
+    second: "Monta\xF1asMarte_15"
+  - first:
+      213: 1917247535658418843
+    second: "Monta\xF1asMarte_16"
+  - first:
+      213: -1411003350984299020
+    second: "Monta\xF1asMarte_17"
+  - first:
+      213: -3202092285657613933
+    second: "Monta\xF1asMarte_18"
+  - first:
+      213: -4312663752407924244
+    second: "Monta\xF1asMarte_19"
+  - first:
+      213: -7417192720757084778
+    second: "Monta\xF1asMarte_20"
+  - first:
+      213: -4811432035362408613
+    second: "Monta\xF1asMarte_21"
+  - first:
+      213: 6690534952092282694
+    second: "Monta\xF1asMarte_22"
+  - first:
+      213: -7356978457806395626
+    second: "Monta\xF1asMarte_23"
+  - first:
+      213: -6874722447810602395
+    second: "Monta\xF1asMarte_24"
+  - first:
+      213: 5198277056162248454
+    second: "Monta\xF1asMarte_25"
+  - first:
+      213: 4660351813705393177
+    second: "Monta\xF1asMarte_26"
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_0"
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 603
+        width: 195
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35258a6db94f32700800000000000000
+      internalID: 514523732608832083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_1"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 599
+        width: 184
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd50d2eec12163d0800000000000000
+      internalID: -3215251486513537550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_2"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 597
+        width: 155
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e82cd7f715c39370800000000000000
+      internalID: 8328216842671499491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_3"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 467
+        width: 143
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffb84057ddddf6a0800000000000000
+      internalID: -6413726377471066125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_4"
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 500
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278ef4324782a58a0800000000000000
+      internalID: -6315691048159942542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_5"
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 503
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f773774adf3b5d0800000000000000
+      internalID: -3047813639983104228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_6"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 500
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e8fa908b45c3ff0800000000000000
+      internalID: -55075946022072753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_7"
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 461
+        width: 195
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f10ac3aeb32b940800000000000000
+      internalID: 5310372787848748924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_8"
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 426
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bf4455255cdba50800000000000000
+      internalID: 6538599191420402567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_9"
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 426
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c322501c75a05200800000000000000
+      internalID: 166815138481054657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_10"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 315
+        width: 184
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452f89b6e4dc108c0800000000000000
+      internalID: -4034718054450924972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_11"
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 313
+        width: 155
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f07d0879aaa7d050800000000000000
+      internalID: 5825312287867367666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_12"
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 325
+        width: 143
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bcdb18f826f6c40800000000000000
+      internalID: 5507729237793950566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_13"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bee8035c9e3dbc0800000000000000
+      internalID: -3759404230791730393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_14"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 219
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816ba54fe5e5f2ba0800000000000000
+      internalID: -6111562407398951400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_15"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 216
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482855cf750824e20800000000000000
+      internalID: 3333367789591560836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_16"
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 177
+        width: 195
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92c965c97e6b9a10800000000000000
+      internalID: 1917247535658418843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_17"
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 173
+        width: 184
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fde1b79deb1b6ce0800000000000000
+      internalID: -1411003350984299020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_18"
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 142
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399fb571802ef83d0800000000000000
+      internalID: -3202092285657613933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_19"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 142
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1c50aaa275624c0800000000000000
+      internalID: -4312663752407924244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_20"
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 29
+        width: 155
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d29a8b486d01990800000000000000
+      internalID: -7417192720757084778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_21"
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 41
+        width: 143
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57f94f4e0c5a3db0800000000000000
+      internalID: -4811432035362408613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_22"
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 74
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fabc8471e89dc50800000000000000
+      internalID: 6690534952092282694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_23"
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 77
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617af325213c6e990800000000000000
+      internalID: -7356978457806395626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_24"
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 74
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a58d88b541890a0800000000000000
+      internalID: -6874722447810602395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_25"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6073d90e07df32840800000000000000
+      internalID: 5198277056162248454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Monta\xF1asMarte_26"
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 0
+        width: 72
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914e1407845eca040800000000000000
+      internalID: 4660351813705393177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Monta\xF1asMarte_19": -4312663752407924244
+      "Monta\xF1asMarte_3": -6413726377471066125
+      "Monta\xF1asMarte_15": 3333367789591560836
+      "Monta\xF1asMarte_0": 514523732608832083
+      "Monta\xF1asMarte_4": -6315691048159942542
+      "Monta\xF1asMarte_23": -7356978457806395626
+      "Monta\xF1asMarte_7": 5310372787848748924
+      "Monta\xF1asMarte_25": 5198277056162248454
+      "Monta\xF1asMarte_12": 5507729237793950566
+      "Monta\xF1asMarte_16": 1917247535658418843
+      "Monta\xF1asMarte_6": -55075946022072753
+      "Monta\xF1asMarte_17": -1411003350984299020
+      "Monta\xF1asMarte_14": -6111562407398951400
+      "Monta\xF1asMarte_26": 4660351813705393177
+      "Monta\xF1asMarte_9": 166815138481054657
+      "Monta\xF1asMarte_13": -3759404230791730393
+      "Monta\xF1asMarte_2": 8328216842671499491
+      "Monta\xF1asMarte_11": 5825312287867367666
+      "Monta\xF1asMarte_1": -3215251486513537550
+      "Monta\xF1asMarte_10": -4034718054450924972
+      "Monta\xF1asMarte_21": -4811432035362408613
+      "Monta\xF1asMarte_24": -6874722447810602395
+      "Monta\xF1asMarte_20": -7417192720757084778
+      "Monta\xF1asMarte_5": -3047813639983104228
+      "Monta\xF1asMarte_18": -3202092285657613933
+      "Monta\xF1asMarte_8": 6538599191420402567
+      "Monta\xF1asMarte_22": 6690534952092282694
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

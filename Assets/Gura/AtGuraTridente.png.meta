@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 2bbde9bfc57e3d749abe50e9a56e8ab9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4736039551724430866
+    second: AtGuraTridente_0
+  - first:
+      213: 5968025469953463890
+    second: AtGuraTridente_1
+  - first:
+      213: -7712629894032019359
+    second: AtGuraTridente_2
+  - first:
+      213: 5160426097872091209
+    second: AtGuraTridente_
+  - first:
+      213: -7264200800074036442
+    second: AtGuraTridente_
+  - first:
+      213: 6866165811252876037
+    second: AtGuraTridente_5
+  - first:
+      213: 5054576829709768886
+    second: AtGuraTridente_6
+  - first:
+      213: -4681985701345064127
+    second: AtGuraTridente_7
+  - first:
+      213: -1954438939865038315
+    second: AtGuraTridente_8
+  - first:
+      213: -2523232921024425258
+    second: AtGuraTridente_9
+  - first:
+      213: -6248045479392615971
+    second: AtGuraTridente_10
+  - first:
+      213: 7464816334985072869
+    second: AtGuraTridente_11
+  - first:
+      213: -6350646704530276424
+    second: AtGuraTridente_12
+  - first:
+      213: 7090208809355528742
+    second: AtGuraTridente_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtGuraTridente_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 206
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2162cb231eac9b140800000000000000
+      internalID: 4736039551724430866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 205
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2565f038b8fa2d250800000000000000
+      internalID: 5968025469953463890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 206
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160b92289fb37f490800000000000000
+      internalID: -7712629894032019359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 166
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9483255e1348d9740800000000000000
+      internalID: 5160426097872091209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 166
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b8a761cdf503b90800000000000000
+      internalID: 8017029334216132218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_5
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 166
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503d8a44d65894f50800000000000000
+      internalID: 6866165811252876037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b855c8a8d6752640800000000000000
+      internalID: 5054576829709768886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 126
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b8ed39fce360fb0800000000000000
+      internalID: -4681985701345064127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_8
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 126
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5124726a32070e4e0800000000000000
+      internalID: -1954438939865038315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 86
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d294c8e60dabfcd0800000000000000
+      internalID: -2523232921024425258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 86
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd161547dbb7a49a0800000000000000
+      internalID: -6248045479392615971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_11
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 86
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0915808ea589760800000000000000
+      internalID: 7464816334985072869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfb77a2878fdd7a0800000000000000
+      internalID: -6350646704530276424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtGuraTridente_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 46
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a4bf8b85b756260800000000000000
+      internalID: 7090208809355528742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AtGuraTridente_6: 5054576829709768886
+      AtGuraTridente_10: -6248045479392615971
+      AtGuraTridente_11: 7464816334985072869
+      AtGuraTridente_9: -2523232921024425258
+      AtGuraTridente_1: 5968025469953463890
+      AtGuraTridente_: 8017029334216132218
+      AtGuraTridente_4: 5160426097872091209
+      AtGuraTridente_5: 6866165811252876037
+      AtGuraTridente_8: -1954438939865038315
+      AtGuraTridente_0: 4736039551724430866
+      AtGuraTridente_7: -4681985701345064127
+      AtGuraTridente_12: -6350646704530276424
+      AtGuraTridente_13: 7090208809355528742
+      AtGuraTridente_2: -7712629894032019359
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
