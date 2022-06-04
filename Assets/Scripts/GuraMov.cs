@@ -262,7 +262,8 @@ using UnityEngine;
             animator.SetTrigger("TakingDamage");
             if (Health < 1)
             {
-            Destroy(hearts[0].gameObject);
+                hearts[0].gameObject.SetActive(false);
+            //Destroy(hearts[0].gameObject);
 
             //1 Función
             //animator.SetTrigger("Muerta");
@@ -273,22 +274,31 @@ using UnityEngine;
             //3 
             transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
             Health = 5;
+            
+                for(int i=0; i < 5; i++)
+                {
+                hearts[i].gameObject.SetActive(true);
+                }
         }
             else if (Health < 2)
             {
-                Destroy(hearts[1].gameObject);
-            }
+                hearts[1].gameObject.SetActive(false);
+            //Destroy(hearts[1].gameObject);
+        }
             else if (Health < 3)
             {
-                Destroy(hearts[2].gameObject);
-            }
+                hearts[2].gameObject.SetActive(false);
+            //Destroy(hearts[2].gameObject);
+        }
             else if (Health < 4)
             {
-                Destroy(hearts[3].gameObject);
+                hearts[3].gameObject.SetActive(false);
+                //Destroy(hearts[3].gameObject);
             }
             else if (Health < 5)
             {
-                Destroy(hearts[4].gameObject);
+                 hearts[4].gameObject.SetActive(false);
+                //Destroy(hearts[4].gameObject);
 
             }
 
