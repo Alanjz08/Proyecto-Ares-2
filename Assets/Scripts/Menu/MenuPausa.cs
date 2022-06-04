@@ -9,7 +9,7 @@ public class MenuPausa : MonoBehaviour
 
     public GameObject pauseMenu;
     bool isPaused;
-
+    public GuraMov gura;
     // Start is called before the first frame update
     void Awake()
     {
@@ -47,6 +47,9 @@ public class MenuPausa : MonoBehaviour
 
     public void Recargar()
     {
+
+
         SceneManager.LoadScene(1);
+      
     }
 }

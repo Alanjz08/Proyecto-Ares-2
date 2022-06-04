@@ -52,7 +52,7 @@ using UnityEngine;
         private Animator animator;
 
         //Vida
-        private int Health = 5;
+        public int Health = 5;
         public GameObject[] hearts;
 
         //Sonidos 
@@ -66,7 +66,8 @@ using UnityEngine;
             gameOverImg.SetActive(false);
             Rigidbody2D = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
-        }
+        transform.position = (new Vector2(3.184f, -22.86f));
+    }
 
         private void Update()
         {
@@ -261,12 +262,18 @@ using UnityEngine;
             animator.SetTrigger("TakingDamage");
             if (Health < 1)
             {
-                Destroy(hearts[0].gameObject);
-                animator.SetTrigger("Muerta");
-                //Time.timeScale = 0;
-                gameOverImg.SetActive(true);
-                Destroy(this);
-            }
+            Destroy(hearts[0].gameObject);
+
+            //1 Función
+            //animator.SetTrigger("Muerta");
+            //Time.timeScale = 0;
+            //2 Boton
+            //gameOverImg.SetActive(true);
+            //Destroy(this);
+            //3 
+            transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
+            Health = 5;
+        }
             else if (Health < 2)
             {
                 Destroy(hearts[1].gameObject);
@@ -282,10 +289,16 @@ using UnityEngine;
             else if (Health < 5)
             {
                 Destroy(hearts[4].gameObject);
+
             }
 
 
         }
+    
+
+
+
+    
     public void Stun()
     {
         GetComponent<SpriteRenderer>().enabled = false;
