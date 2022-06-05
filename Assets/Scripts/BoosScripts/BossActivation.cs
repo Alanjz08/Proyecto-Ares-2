@@ -6,7 +6,6 @@ public class BossActivation : MonoBehaviour
 {
 
     public GameObject Boss;
-    
 
     private void Start()
     {
@@ -19,7 +18,6 @@ public class BossActivation : MonoBehaviour
         {
             BossUI.instance.BossActivator();
             Boss.SetActive(true);
-            
             Destroy(gameObject);
         }
     }

@@ -7,7 +7,6 @@ public class BossUI : MonoBehaviour
 {
 
     public GameObject Bosspanel;
-    public GameObject Music;
     //Objeto de la puerta que se va a abrir cuando exista
     //public GameObject puerta;
 
@@ -31,14 +30,12 @@ public class BossUI : MonoBehaviour
     public void BossActivator()
     {
         Bosspanel.SetActive(true);
-        Instantiate(Music);
         //puerta.SetActive(true);
     }
 
     public void BossDeactivator()
     {
         Bosspanel.SetActive(false);
-        DestroyImmediate(Music, true);
         //puerta.SetActive(false)
     }
 }
