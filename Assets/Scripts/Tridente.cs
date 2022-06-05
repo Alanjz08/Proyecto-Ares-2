@@ -37,7 +37,8 @@ public class Tridente : MonoBehaviour
         
         ZircScript zirc = collision.GetComponent<ZircScript>();
         VScript volador = collision.GetComponent<VScript>();
-        
+        Enemy boss = collision.GetComponent<Enemy>();
+
         if (zirc != null)
         {
             zirc.Hit(TridentDamage);
@@ -48,6 +49,12 @@ public class Tridente : MonoBehaviour
             volador.Hit(TridentDamage);
             Destroy();
         }
+        if (boss != null)
+        {
+            boss.Hit(TridentDamage);
+            Destroy();
+        }
+
     }
     
 

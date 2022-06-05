@@ -50,7 +50,7 @@ using UnityEngine;
 
         //Animador
         private Animator animator;
-
+        public static GuraMov instance;
         //Vida
         public int Health = 5;
         public GameObject[] hearts;
@@ -192,6 +192,7 @@ using UnityEngine;
 
                 ZircScript zirc = enemiesToDamage[i].GetComponent<ZircScript>();
                 VScript volador = enemiesToDamage[i].GetComponent<VScript>();
+                Enemy boss = enemiesToDamage[i].GetComponent<Enemy>();    
 
                 if (zirc != null)
                 {
@@ -201,6 +202,11 @@ using UnityEngine;
                 if (volador != null)
                 {
                     enemiesToDamage[i].GetComponent<VScript>().Hit(damage);
+                    Instantiate(SonidoGolpeMetalico);
+                }
+                if (boss!=null)
+                {
+                    enemiesToDamage[i].GetComponent<Enemy>().Hit(damage);
                     Instantiate(SonidoGolpeMetalico);
                 }
             }
@@ -214,6 +220,7 @@ using UnityEngine;
             {
                 ZircScript zirc = enemiesToDamage[i].GetComponent<ZircScript>();
                 VScript volador = enemiesToDamage[i].GetComponent<VScript>();
+                Enemy boss = enemiesToDamage[i].GetComponent<Enemy>();
 
                 if (zirc != null)
                 {
@@ -227,9 +234,14 @@ using UnityEngine;
                     Instantiate(SonidoGolpeMetalico);
 
                 }
+                if (boss != null)
+                {
+                    enemiesToDamage[i].GetComponent<Enemy>().Hit(damage);
+                    Instantiate(SonidoGolpeMetalico);
+                }
 
 
-            }
+        }
         }
         public void FlyBAttack()
         {
@@ -240,6 +252,7 @@ using UnityEngine;
             {
                 ZircScript zirc = enemiesToDamage[i].GetComponent<ZircScript>();
                 VScript volador = enemiesToDamage[i].GetComponent<VScript>();
+                Enemy boss = enemiesToDamage[i].GetComponent<Enemy>();
 
                 if (zirc != null)
                 {
@@ -251,7 +264,12 @@ using UnityEngine;
                     enemiesToDamage[i].GetComponent<VScript>().Hit(damage);
                     Instantiate(SonidoGolpeMetalico);
                 }
-            }
+                if (boss != null)
+                {
+                    enemiesToDamage[i].GetComponent<Enemy>().Hit(damage);
+                    Instantiate(SonidoGolpeMetalico);
+                }
+        }
         }
 
         //Función RECIBIR daño;
@@ -277,7 +295,7 @@ using UnityEngine;
             
                 for(int i=0; i < 5; i++)
                 {
-                hearts[i].gameObject.SetActive(true);
+                    hearts[i].gameObject.SetActive(true);
                 }
         }
             else if (Health < 2)
