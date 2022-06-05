@@ -6,25 +6,26 @@ public class Enemy : MonoBehaviour
 {
     public int HealthPoints;
     public int Speed;
-    private Animator animator;
+   //private Animator animator;
     public GameObject SonidoGolpeMetalico;
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 
     public void Hit(int DamageTaken)
     {
         HealthPoints = HealthPoints - DamageTaken;
-        animator.SetTrigger("TD");
+        //animator.SetTrigger("TD");
         Instantiate(SonidoGolpeMetalico);
         if (HealthPoints == 0)
         {
             //    animator.SetTrigger("Muerte");
             GetComponent<Collider2D>().enabled = false;
             this.enabled = false;
-
+            //Destroy(gameObject);
+            //BossUI.instance.BossDeactivator();
         }
 
     }

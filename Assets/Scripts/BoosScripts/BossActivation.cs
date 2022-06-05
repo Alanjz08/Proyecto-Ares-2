@@ -18,6 +18,7 @@ public class BossActivation : MonoBehaviour
         {
             BossUI.instance.BossActivator();
             Boss.SetActive(true);
+            Destroy(gameObject);
         }
     }
 

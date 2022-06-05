@@ -7,15 +7,18 @@ public class BossComportamieto : MonoBehaviour
 {
     public Transform[] transforms;
     public GameObject EnergyBall;
+    public GameObject Personaje;
+    private Animator animator;
 
     public float timetoShoot, countdown;
     public float timetoTP, countdownToTp;
-
+    //float timeWait = 5;
     public float Bosshealth, CurrentBossHealth;
     public Image HealthImg;
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         var initialPosicion = Random.Range(0, transforms.Length);
         transform.position = transforms[initialPosicion].position;
         countdown = timetoShoot;
@@ -24,6 +27,7 @@ public class BossComportamieto : MonoBehaviour
 
     public void Update()
     {
+        BossScale();
         DamageBoss();
 
         countdown -= Time.deltaTime;
@@ -41,20 +45,22 @@ public class BossComportamieto : MonoBehaviour
             Teleport();
             countdownToTp = timetoTP;
         }
+
+        //if (CurrentBossHealth <= 0f)
+        //{
+        //    timeWait -= Time.deltaTime;
+        //    if (timeWait <= 0f)
+        //    {
+        //        Destroy(gameObject);
+        //    }
+        //}
     }
 
-    private void Shoot()
-    {
-        Vector3 direction;
-        if (transform.localScale.x == 1.0f) direction = Vector3.right;
-        else direction = Vector3.left;
-       //Instantiate(SonidoLaserGun);
-        GameObject bala = Instantiate(EnergyBall, transform.position + direction * 0.1f, Quaternion.identity);
-        bala.GetComponent<BalaScript>().SetDirection(direction);
-    }
+   
 
     public void ShootPlayer()
-    {   
+    {
+        //Instantiate(SonidoLaserGun);
         GameObject Disparo = Instantiate(EnergyBall, transform.position, Quaternion.identity);   
     }
 
@@ -68,7 +74,27 @@ public class BossComportamieto : MonoBehaviour
     {
         CurrentBossHealth = GetComponent<Enemy>().HealthPoints;
         HealthImg.fillAmount = CurrentBossHealth / Bosshealth;
+
+        if (CurrentBossHealth == 0)
+        {
+            animator.SetTrigger("Muerte");
+            BossUI.instance.BossDeactivator();
+            //Destroy(gameObject);
+            GetComponent<Collider2D>().enabled = false;
+            this.enabled = false;
+        }
     }
 
+    public void BossScale()
+    {
+        if(transform.position.x > Personaje.transform.position.x)
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
    
 }

@@ -33,4 +33,9 @@ public class BossUI : MonoBehaviour
         //puerta.SetActive(true);
     }
 
+    public void BossDeactivator()
+    {
+        Bosspanel.SetActive(false);
+        //puerta.SetActive(false)
+    }
 }
