@@ -35,8 +35,9 @@ public class BossComportamieto : MonoBehaviour
 
         if (countdown <= 0f)
         {
-            ShootPlayer();
-            countdown = timetoShoot;
+            animator.SetTrigger("BAtaca");
+            //ShootPlayer();
+            
             
         }
 
@@ -61,13 +62,19 @@ public class BossComportamieto : MonoBehaviour
     public void ShootPlayer()
     {
         //Instantiate(SonidoLaserGun);
-        GameObject Disparo = Instantiate(EnergyBall, transform.position, Quaternion.identity);   
+        GameObject Disparo = Instantiate(EnergyBall, transform.position, Quaternion.identity);
+        countdown = timetoShoot;
     }
 
     public void Teleport()
     {
         var initialPosicion = Random.Range(0, transforms.Length);
         transform.position = transforms[initialPosicion].position;
+    }
+
+    public void Destroy()
+    {
+        Destroy(gameObject);
     }
 
     public void DamageBoss()
