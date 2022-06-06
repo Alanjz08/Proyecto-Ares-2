@@ -108,11 +108,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 39
-        y: 376
-        width: 23
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 301
+        width: 22
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -128,12 +128,12 @@ TextureImporter:
       name: Tuberia_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 375
-        width: 24
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 139
+        y: 301
+        width: 22
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,12 +149,12 @@ TextureImporter:
       name: Tuberia_2
       rect:
         serializedVersion: 2
-        x: 237
-        y: 376
-        width: 28
-        height: 23
+        x: 239
+        y: 301
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.4519975, y: 0.5}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: Tuberia_3
       rect:
         serializedVersion: 2
-        x: 338
-        y: 375
-        width: 25
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 339
+        y: 301
+        width: 22
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -191,12 +191,12 @@ TextureImporter:
       name: Tuberia_4
       rect:
         serializedVersion: 2
-        x: 38
-        y: 270
-        width: 25
-        height: 29
+        x: 39
+        y: 201
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.5014934, y: 0.60051435}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -213,11 +213,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 139
-        y: 262
+        y: 201
         width: 22
-        height: 38
+        height: 98
       alignment: 9
-      pivot: {x: 0.54073054, y: 0.6414827}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -234,11 +234,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 239
-        y: 261
-        width: 23
-        height: 38
+        y: 201
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.48052183, y: 0.66506314}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -255,11 +255,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 339
-        y: 263
-        width: 23
-        height: 36
+        y: 201
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.48052183, y: 0.64934283}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: Tuberia_8
       rect:
         serializedVersion: 2
-        x: 38
-        y: 161
-        width: 24
-        height: 38
+        x: 39
+        y: 101
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.49999985, y: 0.676853}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,11 +297,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 139
-        y: 162
-        width: 23
-        height: 37
+        y: 101
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.5, y: 0.6453066}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,11 +318,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 239
-        y: 151
-        width: 23
-        height: 48
+        y: 101
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.48052183, y: 0.7333482}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,11 +339,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 339
-        y: 139
-        width: 23
-        height: 61
+        y: 101
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.5000013, y: 0.77175504}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -359,12 +359,12 @@ TextureImporter:
       name: Tuberia_12
       rect:
         serializedVersion: 2
-        x: 38
-        y: 10
-        width: 24
-        height: 89
+        x: 39
+        y: 1
+        width: 22
+        height: 98
       alignment: 9
-      pivot: {x: 0.49999985, y: 0.857416}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -381,11 +381,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 139
-        y: 0
+        y: 1
         width: 22
-        height: 99
+        height: 98
       alignment: 9
-      pivot: {x: 0.54073054, y: 0.87562}
+      pivot: {x: 0.5, y: 0.88}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
