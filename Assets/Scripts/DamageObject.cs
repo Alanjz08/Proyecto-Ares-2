@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DamageObject : MonoBehaviour
 {
+    //Trampas, cuando se tiene contacto con el jugador se rebaja la vida
     private int Damage = 1;
     
     private void OnCollisionEnter2D(Collision2D collision)

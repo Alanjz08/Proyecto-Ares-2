@@ -1,0 +1,430 @@
+fileFormatVersion: 2
+guid: 1c9257ef663b0ad44974cd27edc5f9a6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tuberia_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 376
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c89822e62c9ac4d948040e1fe45b99
+      internalID: -1796670918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 375
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eba4cb3cc5f6bf4ea8ba8010988e496
+      internalID: 1130719680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 376
+        width: 28
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4519975, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6311a12099cf7343b3b6ffb8c639222
+      internalID: 510650248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_3
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 375
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3288173a1faf8aa42a2dc6e2c72e0903
+      internalID: -1592795248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_4
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 270
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5014934, y: 0.60051435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defec32fe3def1f4ca5f4952180e9b5d
+      internalID: 603438650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 262
+        width: 22
+        height: 38
+      alignment: 9
+      pivot: {x: 0.54073054, y: 0.6414827}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70553544701f3b48af8e7dc548896eb
+      internalID: -55900385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 261
+        width: 23
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48052183, y: 0.66506314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7774b3f3cb2d7644a87580d82dba07f2
+      internalID: -1940359265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_7
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 263
+        width: 23
+        height: 36
+      alignment: 9
+      pivot: {x: 0.48052183, y: 0.64934283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5c5b8e30db1404e91e75b8296b9a7d
+      internalID: -1276415963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_8
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 161
+        width: 24
+        height: 38
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.676853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33235615270f41f4292d81a1fccdef4b
+      internalID: 2143062744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 162
+        width: 23
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6453066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0efa6c277ecac74b8cf8a5f7c4b02fd
+      internalID: 1545725897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 151
+        width: 23
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48052183, y: 0.7333482}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48553133e0e4e140988aed258ddc11d
+      internalID: 998597532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 139
+        width: 23
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5000013, y: 0.77175504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23651eb4e0713864880b92b93ba4235d
+      internalID: 1268936639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 10
+        width: 24
+        height: 89
+      alignment: 9
+      pivot: {x: 0.49999985, y: 0.857416}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b21f02df3c2cf41bc32542334b201a
+      internalID: -11232251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tuberia_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 22
+        height: 99
+      alignment: 9
+      pivot: {x: 0.54073054, y: 0.87562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c0912b583c6224686642b7844b2859
+      internalID: 1248590346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tuberia_0: -1796670918
+      Tuberia_9: 1545725897
+      Tuberia_11: 1268936639
+      Tuberia_5: -55900385
+      Tuberia_12: -11232251
+      Tuberia_10: 998597532
+      Tuberia_3: -1592795248
+      Tuberia_8: 2143062744
+      Tuberia_7: -1276415963
+      Tuberia_13: 1248590346
+      Tuberia_2: 510650248
+      Tuberia_1: 1130719680
+      Tuberia_4: 603438650
+      Tuberia_6: -1940359265
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

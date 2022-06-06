@@ -15,6 +15,7 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Mueve la camara con el movimiento de el personaje
         if (Gura != null)
         {
             Vector3 position = transform.position;

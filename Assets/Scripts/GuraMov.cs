@@ -22,7 +22,7 @@ using UnityEngine;
         Collider2D[] enemiesToDamage;
 
 
-        //PATANLLA DE MUERTE
+        //PANTALLA DE MUERTE
         public GameObject gameOverImg;
 
         //Stun
@@ -61,12 +61,14 @@ using UnityEngine;
         public GameObject SonidoAterrizaje;
         public GameObject SonidoGolpeMetalico;
 
+
+        //Al iniciar el código obtenemos los componentes que necesitamos y spawneamos el personaje en  la posición que deseamos.
         private void Start()
         {
             gameOverImg.SetActive(false);
             Rigidbody2D = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
-        transform.position = (new Vector2(3.184f, -22.86f));
+            transform.position = (new Vector2(3.184f, -22.86f));
     }
 
         private void Update()
@@ -182,6 +184,8 @@ using UnityEngine;
             GameObject tridente = Instantiate(TridentePrefab, transform.position + direction * 0.1f, Quaternion.identity);
             tridente.GetComponent<Tridente>().SetDirection(direction);
         }
+
+    //A partir de una hitbox determinamos si hay enemigos y los guardamos en un vector para posteriormente golpearlos a todos
         public void GroundAttack()
         {
             Instantiate(SonidoCorte);
@@ -211,7 +215,9 @@ using UnityEngine;
                 }
             }
         }
-        public void FlySAttack()
+
+    //A partir de una hitbox determinamos si hay enemigos y los guardamos en un vector para posteriormente golpearlos a todos
+    public void FlySAttack()
         {
             Instantiate(SonidoCorte);
             enemiesToDamage = Physics2D.OverlapBoxAll(attackPosS.position, new Vector2(attackRangeX, attackRangeY), 0, whatIsEnemies);
@@ -243,7 +249,9 @@ using UnityEngine;
 
         }
         }
-        public void FlyBAttack()
+
+    //A partir de una hitbox determinamos si hay enemigos y los guardamos en un vector para posteriormente golpearlos a todos
+    public void FlyBAttack()
         {
             Instantiate(SonidoCorte);
             enemiesToDamage = Physics2D.OverlapBoxAll(attackPosB.position, new Vector2(attackRangeX, attackRangeY), 0, whatIsEnemies);
@@ -278,18 +286,12 @@ using UnityEngine;
             dazedTime = startDazedTime;
             Health = Health - DamageTaken;
             animator.SetTrigger("TakingDamage");
+        
             if (Health < 1)
             {
+            //Si muere el personaje lo spawneamos en ultimo checkpoint y le devolvemos la vida a 5, volvemos a poner corazones
                 hearts[0].gameObject.SetActive(false);
-            //Destroy(hearts[0].gameObject);
-
-            //1 Función
-            //animator.SetTrigger("Muerta");
-            //Time.timeScale = 0;
-            //2 Boton
-            //gameOverImg.SetActive(true);
-            //Destroy(this);
-            //3 
+            
             transform.position = (new Vector2(PlayerPrefs.GetFloat("checkPointPositionX"), PlayerPrefs.GetFloat("checkPointPositionY")));
             Health = 5;
             
@@ -301,22 +303,22 @@ using UnityEngine;
             else if (Health < 2)
             {
                 hearts[1].gameObject.SetActive(false);
-            //Destroy(hearts[1].gameObject);
+            
         }
             else if (Health < 3)
             {
                 hearts[2].gameObject.SetActive(false);
-            //Destroy(hearts[2].gameObject);
+           
         }
             else if (Health < 4)
             {
                 hearts[3].gameObject.SetActive(false);
-                //Destroy(hearts[3].gameObject);
+               
             }
             else if (Health < 5)
             {
                  hearts[4].gameObject.SetActive(false);
-                //Destroy(hearts[4].gameObject);
+               
 
             }
 
@@ -326,7 +328,7 @@ using UnityEngine;
 
 
 
-    
+    //Desabilitamos el sprite para hacer que no se mueva el personaje
     public void Stun()
     {
         GetComponent<SpriteRenderer>().enabled = false;

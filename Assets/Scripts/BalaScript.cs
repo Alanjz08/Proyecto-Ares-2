@@ -9,13 +9,13 @@ public class BalaScript : MonoBehaviour
     private Vector2 Direction;
     private int BalaDamage=1;
 
-    // Start is called before the first frame update
+    //Obtenemos el componente rigidbody
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // La velocidad de la bala sera igual a la dirección por speed, que podemos modificar
     void Update()
     {
         Rigidbody2D.velocity = Direction * speed;
@@ -27,12 +27,14 @@ public class BalaScript : MonoBehaviour
         Direction = direction;
     }
 
+    //Método para destruir la bala
     public void Destroy()
     {
         Destroy(gameObject);
 
     }
     
+    //Si colisiona con el personaje o con un tridente la bala de destruye y llama al método hit del personaje
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GuraMov gura=collision.GetComponent<GuraMov>();

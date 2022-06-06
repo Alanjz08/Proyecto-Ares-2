@@ -9,13 +9,13 @@ public class Tridente : MonoBehaviour
     private Vector2 Direction;
     private int TridentDamage =1;
    
-    // Start is called before the first frame update
+    // Obtenemos el componente del rigibody
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
+    // La velocida del rigidbody sera igual a la dirección por la velocidad (modificable)
     void Update()
     {
         Rigidbody2D.velocity = Direction * speed;
@@ -26,12 +26,15 @@ public class Tridente : MonoBehaviour
         Direction = direction;
     }
 
+    //Destruimos el tridente
     public void Destroy()
     {
         Destroy(gameObject);
         
     }
 
+    //Si colisionamos con un zirc verde, volador o el enemigo entonces llamamos a su función
+    //Hit respectiva, en caso de que choque, se eliminará el tridente.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         

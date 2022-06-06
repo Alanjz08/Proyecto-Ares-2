@@ -4,20 +4,21 @@ using UnityEngine;
 
 public class VBala : MonoBehaviour
 {
+    //Bala zirc volador
     private Rigidbody2D Rigidbody2D;
     public float speed;
     private Vector2 Direction;
     private int BalaDamage = 1;
     private Animator animator;
 
-    // Start is called before the first frame update
+    // Obtenemos los componentes del ridigbody2d y del animator
     void Start()
     {
         Rigidbody2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    // La velocidad del rigidbody sera la dirección por la velocidad
     void Update()
     {
         Rigidbody2D.velocity = Direction * speed;
@@ -27,6 +28,7 @@ public class VBala : MonoBehaviour
         Direction = direction;
     }
 
+    //Se destruye al tocar el tridente o a gura
     public void Destroy()
     {
         Destroy(gameObject);
@@ -34,7 +36,7 @@ public class VBala : MonoBehaviour
   
     }
    
-
+    //Si se topa con gura o con un tridente llama a la función de daño de gura y se destruye
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GuraMov gura = collision.GetComponent<GuraMov>();

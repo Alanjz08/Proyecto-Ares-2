@@ -5,47 +5,50 @@ using UnityEngine.UI;
 
 public class Manager : MonoBehaviour
 {
-    public Text totalFruits;
-    public Text FruitsCollected;
-    private int totalFruitInLevel;
+    //Gas
+    public Text totalGas;
+    public Text GasCollected;
+    private int totalGasInLevel;
     public bool allCollected = false;
     public Cohete cohete;
 
     private void Start()
     {
-       
-        totalFruitInLevel = transform.childCount;
+        //El total del gas seran la cantidad de hijos del manager en la escena
+        totalGasInLevel = transform.childCount;
         cohete = GameObject.FindGameObjectWithTag("Cohete").GetComponent<Cohete>();
 
     }
 
     private void Update()
     {
-        totalFruits.text = totalFruitInLevel.ToString();
+        //Mostramos el total de gasolinas
+        totalGas.text = totalGasInLevel.ToString();
 
-        if(transform.childCount==5 )
+        //Al recojer una gasolina se actualiza nuestro contador
+        if (transform.childCount==5 )
         {
-            FruitsCollected.text = 0.ToString();
+            GasCollected.text = 0.ToString();
         }
         else if(transform.childCount == 4)
         {
-            FruitsCollected.text = 1.ToString();
+            GasCollected.text = 1.ToString();
         }
         else if (transform.childCount == 3)
         {
-            FruitsCollected.text = 2.ToString();
+            GasCollected.text = 2.ToString();
         }
         else if (transform.childCount == 2)
         {
-            FruitsCollected.text = 3.ToString();
+            GasCollected.text = 3.ToString();
         }
         else if (transform.childCount == 1)
         {
-            FruitsCollected.text = 4.ToString();
+            GasCollected.text = 4.ToString();
         }
         else if (transform.childCount == 0)
         {
-            FruitsCollected.text = 5.ToString();
+            GasCollected.text = 5.ToString();
             cohete.Got();
         }
     }

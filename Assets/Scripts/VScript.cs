@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class VScript : MonoBehaviour
 {
+    //Zirc volador
+
+    
     public GameObject Personaje;
     public GameObject BalaPrefab;
     private float LastShoot;
@@ -24,7 +27,8 @@ public class VScript : MonoBehaviour
     public GameObject SonidoGolpeMetalico;
     public GameObject SonidoLaserGun;
     private Animator animator;
-    // Start is called before the first frame update
+
+    // Obtenemos el componente del animator y el tiempo de espera para moverse
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -34,6 +38,7 @@ public class VScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Se mueve en las posiciones del vector en determinado tiempo
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
         if (Vector2.Distance(transform.position, moveSpots[i].transform.position) < 0.1f)
         {
@@ -55,8 +60,12 @@ public class VScript : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
+
+
         //Comportamientos();
         if (Personaje == null) return;
+
+        //Ataca cuando detecta un personaje
         distancex = Mathf.Abs(Personaje.transform.position.x - transform.position.x);
         distancey = Mathf.Abs(Personaje.transform.position.y - transform.position.y);
         if (distancex < 0.3f && Time.time > LastShoot + 1f && Health != 0 && distancey < 1.0f)
@@ -68,12 +77,13 @@ public class VScript : MonoBehaviour
 
         
     }
+    //Se destruye al activar la animación de muerte
     public void Destroy()
     {
         Destroy(gameObject);
     }
 
-
+    //Instancia una bala para disparar en el vector
     private void Shoot()
     {
         Vector3 direction;
@@ -83,6 +93,8 @@ public class VScript : MonoBehaviour
         bala.GetComponent<VBala>().SetDirection(direction);
     }
 
+
+    //Función recibir daño hasta morir
     public void Hit(int DamageTaken)
     {
         Health = Health - DamageTaken;

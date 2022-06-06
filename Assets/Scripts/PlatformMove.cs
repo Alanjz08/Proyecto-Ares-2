@@ -10,7 +10,8 @@ public class PlatformMove : MonoBehaviour
     public float startWaitTime = 2;
     private int i = 0;
     private Vector2 actualPos;
-    // Start is called before the first frame update
+
+    // Iniciamos el tiempo de espera
     void Start()
     {
         waitTime = startWaitTime;
@@ -19,6 +20,7 @@ public class PlatformMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //La plataforma se moverá entre los objetos en los vectores
         transform.position = Vector2.MoveTowards(transform.position, moveSpots[i].transform.position, speed * Time.deltaTime);
         if(Vector2.Distance(transform.position,moveSpots[i].transform.position)<0.1f)
         {
@@ -41,6 +43,8 @@ public class PlatformMove : MonoBehaviour
             }
         }
     }
+
+    //Hace hijo cualquier objeto que este en la plataforma, así el personaje se mueve con la plataforma
     private void OnCollisionEnter2D(Collision2D collision)
     {
         collision.collider.transform.SetParent(transform);
