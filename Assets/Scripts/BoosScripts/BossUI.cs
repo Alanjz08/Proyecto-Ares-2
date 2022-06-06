@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Activa el panel de la barra de vida del jefe y reproduce la musica
+
 public class BossUI : MonoBehaviour
 {
 

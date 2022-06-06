@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
+//Este script permite modificar el volumen de un audio desde un control externo
 public class AudioManager : MonoBehaviour
 {
 

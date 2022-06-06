@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//Al presionar la tecla ESC, se detiene el tiempo y se abre el menu de pausa
+
 public class MenuPausa : MonoBehaviour
 {
 

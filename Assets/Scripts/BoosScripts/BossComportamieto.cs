@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Determina el comportamiento del jefe
+
 public class BossComportamieto : MonoBehaviour
 {
     public Transform[] transforms;
@@ -12,7 +14,6 @@ public class BossComportamieto : MonoBehaviour
 
     public float timetoShoot, countdown;
     public float timetoTP, countdownToTp;
-    //float timeWait = 5;
     public float Bosshealth, CurrentBossHealth;
     public Image HealthImg;
 
@@ -47,14 +48,7 @@ public class BossComportamieto : MonoBehaviour
             countdownToTp = timetoTP;
         }
 
-        //if (CurrentBossHealth <= 0f)
-        //{
-        //    timeWait -= Time.deltaTime;
-        //    if (timeWait <= 0f)
-        //    {
-        //        Destroy(gameObject);
-        //    }
-        //}
+       
     }
 
    

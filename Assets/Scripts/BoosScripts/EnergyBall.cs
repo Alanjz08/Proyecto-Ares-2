@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Funcionalidad del dispoaro del jefe
+
 public class EnergyBall : MonoBehaviour
 {
     public float movSpeed;

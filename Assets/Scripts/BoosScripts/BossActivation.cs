@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Este script detecta si el jugador esta en la sala del jefe
 public class BossActivation : MonoBehaviour
 {
 
@@ -22,10 +23,7 @@ public class BossActivation : MonoBehaviour
         }
     }
 
-    //IEnumerator WaitForBoss()
-    //{
-        
-    //}
+    
     
 
 }
